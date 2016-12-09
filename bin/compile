@@ -132,8 +132,6 @@ print "dotnet restore all dependencies"
 dotnet restore ${PROJECT_JSON_FILE} --no-cache
 print "dotnet restore all dependencies completed"
 
-npm install bower
-npm install gulp
 
 #dotnet pulish using project.json
 print "dotnet publish starts."
